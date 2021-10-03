@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Graphing Calculator</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/home.css') }}">
+    </head>
+    <body>
+        <h1>Graphing Calculator</h1>
+        <div><img src="../static/images/graph.png" alt="Derivative Graph"></div>
+        <div id="header">
+            <a href="/der"><input type = "button" value = "First Derivative"></a>
+            <a href="/der2"><input type = "button" value = "Second Derivative"></a>
+            <a href="/relmax"><input type = "button" value = "Relative Maximums"></a>
+            <a href="/relmin"><input type = "button" value = "Relative Minimums"></a>
+            <a href="/poi"><input type = "button" value = "Points of Inflection"></a>
+            <a href="/ftc"><input type = "button" value = "Fundamental Theorem of Calculus"></a>
+            <a href="/in1"><input type = "button" value = "Zoom In"></a>
+            <a href="/out1"><input type = "button" value = "Zoom Out"></a>
+        </div>
+    </body>
+</html>
